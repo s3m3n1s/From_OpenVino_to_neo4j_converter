@@ -27,4 +27,4 @@ def get_graph_from_xml(file_name):
         graph.create(relationship)
 
 
-get_graph_from_xml(input())
+get_graph_from_xml(input("Please enter path to xml model file:"))
