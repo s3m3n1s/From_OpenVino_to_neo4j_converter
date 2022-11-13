@@ -27,4 +27,4 @@ def get_graph_from_xml(file_name):
         graph.create(relationship)
 
 
-get_graph_from_xml('resnet50-binary-0001.xml')
+get_graph_from_xml(input())
