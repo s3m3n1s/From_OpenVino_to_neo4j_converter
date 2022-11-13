@@ -1,0 +1,16 @@
+ 
+version: '3.5'
+
+services:
+  neo4j:
+    container_name: neo4j_container
+    image: neo4j
+    environment:
+      NEO4J_AUTH: none
+    volumes:
+       - $HOME/neo4j/data:/data
+    network_mode: host
+    restart: unless-stopped
+
+volumes:
+    neo4j:
